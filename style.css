@@ -1,0 +1,67 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn2 {
+    width: 120px;
+    height: 30px;
+    border-color: darkcyan;
+    color: darkcyan;
+    background-color: white;
+    border-radius: 15px;
+    border-style: solid;
+}
+
+.col {
+    background-color: maroon;
+    margin: 1px;
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    background-color: white;
+}
+
+.nav{
+    background-color: #333333;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn1{
+    background-color: lightskyblue;
+    color: white;
+    font-size: 14px;
+    border: 2px solid black;
+    padding: 10px 5px;
+    box-shadow: 5px 5px black;
+}
